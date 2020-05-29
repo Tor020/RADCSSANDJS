@@ -14,7 +14,9 @@ body {
 }
 
 .container {
-  position: relative;
+  position: absolute;
+  top: 0px;
+  left: 0px;
   display: grid;
   grid-template-rows: repeat(20, 5vh);
   grid-template-columns: repeat(20, 5vw);
