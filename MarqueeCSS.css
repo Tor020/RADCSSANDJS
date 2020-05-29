@@ -1,3 +1,26 @@
+:root{
+
+  --m1Translate:100%, 20%;
+  --m1Rotate:30deg;
+  
+  --m2Translate:-300%, 50%;
+  --m2Rotate:360deg;
+
+}
+
+
+      @keyframes move1 {
+      0% {
+        transform: translate(var(--m1Translate)) rotate(var(--m1Rotate)) skew(0deg);
+
+      }
+
+      100% {
+        transform: translate(var(--m2Translate)) rotate(var(--m2Rotate)) skew(20deg);
+      }
+    }
+
+
     .one {
       background-color: rgba(59, 69, 201, 0.212);
       transform: translate(-300%, 1000px);
